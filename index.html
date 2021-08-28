@@ -5,39 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agnieszka Olbryś - portfolio</title>
+    <style>
+        html {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+        body{
+            margin: 0;
+            background: red;
+            background-image: url("bg-image.jpg");
+            background-size: cover;
+            color: white;
+        }
+        h1{
+          text-transform: uppercase;  
+          font-family: sans-serif;
+          font-weight: normal;
+          font-size: 16;
+        }
+        h2, 
+        h3
+        footer{
+            font-family: sans-serif;
+
+        }
+        h3{
+          text-transform: uppercase;  
+          font-weight: normal;
+          font-size: 13;
+
+        }
+        li{
+            list-style: none;
+        }
+        ul{
+            padding: 0;
+        }
+        .links{
+            
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+        .links section{
+            flex-grow: 1;
+            width: 100%;
+        }
+        .page{
+            background: darkblue;
+            overflow: auto;
+            margin-left: 30%;
+            min-height: 100vh;
+            padding: 40px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        
+
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Agnieszka Olbryś</h1>
+    <section class="page">
+        <h1>Agnieszka Olbryś</h1>
 
-    <h2>Cześć!</h2>
-    <p>To jest przykładowa strona internetowa</p>
-
-    <h3>Poczytaj</h3>
-    <ul>
-        <li>Blog</li>
-        <li>Email</li>
-        <li>Newsletter</li>
-    </ul>
-
-    <h3>Pingnij mnie</h3>
-    <ul>
-        <li>Twitter</li>
-        <li>Instagram</li>
-        <li>Dribbble</li>
-
-    </ul>
-
-    <h3>Zobacz</h3>
-    <ul>
-        <li>Projekt 1</li>
-        <li>Projekt 2</li>
-        <li>Projekt 3</li>
-    </ul>
-
-    <p>&copy;2021 - Agnieszka Olbryś</p>
-
-   
-
+        <h2>Cześć!</h2>
+        <p>To jest przykładowa strona internetowa</p>
+        <section class="links">
+            <section>
+                <h3>Poczytaj</h3>
+            <ul>
+                <li>Blog</li>
+                <li>Email</li>
+                <li>Newsletter</li>
+            </ul>
+            </section>
+        
+            
+            <section>
+                <h3>Pingnij mnie</h3>
+            <ul>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Dribbble</li>
+            </ul>
+            </section>
     
+            <section>
+                <h3>Zobacz</h3>
+            <ul>
+                <li>Projekt 1</li>
+                <li>Projekt 2</li>
+                <li>Projekt 3</li>
+            </ul>
+            </section>
+    
+        </section>
+        
+        
+        <p>&copy;2021 - Agnieszka Olbryś</p>
+    
+       
+    
+        
+    </section>
+    
+   
 </body>
 </html>
